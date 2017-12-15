@@ -1,0 +1,82 @@
+const a = 31;
+var b,c,d,e;
+d := a + 10/(2+5);
+procedure p;
+while 1 do
+    if d*a < 12 then
+        d:=0;
+    else
+        d:=10;
+    c := a+b;
+   ;
+begin
+  read(b)
+  while b<=0 do
+    begin
+      call  p
+      write(2*c)
+      read(b)
+     end
+end
+
+
+const a = 10;
+var b,c;
+b:=100;
+procedure p;
+begin
+ c := b + a;
+end;
+begin
+read(b)
+while b#0 do
+begin
+ call p
+ write(2*c)
+ read(b)
+end
+end
+
+
+var b,c;
+b := 10;
+while b>=8 do
+b:=b-1;
+b:=100;
+
+
+var b;
+b := 10;
+while b>=8 do
+if b>=9 then
+begin
+b:=b-1;
+end
+else
+b:=0;
+b:=1000;
+
+
+
+const a = 10;
+var b,c;
+procedure p;
+procedure q;
+var d;
+read(d)
+c := c + d;
+;
+begin
+ c := b + a;
+ call q
+end
+;
+begin
+read(b)
+while b#0 do
+begin
+ call p
+ write(2*c)
+ read(b)
+end
+end

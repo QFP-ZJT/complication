@@ -1,0 +1,23 @@
+const a=10;
+var b,c;
+procedure q;
+begin
+c:=1;
+end;
+
+procedure p;
+begin
+c:=b+a;
+call q
+end;
+
+begin
+read(b)
+while b#0 do
+    begin
+       call p
+       write(c)
+       read(b)
+    end
+end
+
